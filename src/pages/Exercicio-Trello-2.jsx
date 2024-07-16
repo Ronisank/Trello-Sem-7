@@ -20,7 +20,7 @@ useEffect(() => {
 
 return (
   <>
-      <h1>Notícias</h1>
+      <h2>Notícias</h2>
     <div className="container-fluid text-bg-info p-3">
       <p>{noticia}</p>
     </div>
