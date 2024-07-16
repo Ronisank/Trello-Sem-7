@@ -9,7 +9,7 @@ async function buscaDados() {
     const dados = await resposta.json();
     const noticiasAleatorias = Math.floor(Math.random() * dados.items.length);
     const noticiasNovas = dados.items[noticiasAleatorias];
-    // const noticias = dados.items[0].titulo;
+
     setNoticia(noticiasNovas.titulo);
     setTimeout(buscaDados, 8000);
 }
