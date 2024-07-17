@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { CarregarNoticia } from './pages/Exercicio-Trello-2'
+import AdicionarItem from './pages/AddItem'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +8,8 @@ function App() {
   return (
     <>
     {/* <Contador /> */}
-    <CarregarNoticia />
+    {/* <CarregarNoticia /> */}
+    <AdicionarItem/>
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
