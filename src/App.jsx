@@ -1,15 +1,18 @@
-import { useState } from 'react'
 import './App.css'
-import AdicionarItem from './pages/AddItem'
+// import CarregarNoticia from './pages/Exercicio-Trello-2'
+// import Contador from './pages/Contador'
+// import AdicionarItem from './pages/AddItem'
+import Trello from './pages/Form'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
     {/* <Contador /> */}
     {/* <CarregarNoticia /> */}
-    <AdicionarItem/>
+    {/* <AdicionarItem/> */}
+    <Trello/>
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
