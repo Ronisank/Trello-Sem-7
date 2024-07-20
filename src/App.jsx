@@ -1,8 +1,9 @@
 import './App.css'
+import InputControlado from './components/InputControlado'
 // import CarregarNoticia from './pages/Exercicio-Trello-2'
 // import Contador from './pages/Contador'
 // import AdicionarItem from './pages/AddItem'
-import Trello from './pages/Form'
+// import FormSimple from './pages/Form'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -12,7 +13,8 @@ function App() {
     {/* <Contador /> */}
     {/* <CarregarNoticia /> */}
     {/* <AdicionarItem/> */}
-    <Trello/>
+    {/* <FormSimple/> */}
+    <InputControlado/>
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">

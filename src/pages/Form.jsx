@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function Trello(){
+function FormSimple(){
 const [formData, setFormData] = useState({
     nome: '',
     email: '',
@@ -38,4 +38,4 @@ useEffect(() => {
     )
 }
 
-export default Trello;
+export default FormSimple;
